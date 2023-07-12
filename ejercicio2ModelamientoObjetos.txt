@@ -1,0 +1,5 @@
+¿Es posible ejecutar un programa en java que contenga varias clases con métodos main? En caso positivo, ¿cómo se determina el punto de entrada a un programa?
+
+En Java, solo se puede tener un método main por programa. Sin embargo, un programa puede tener varias clases con diferentes métodos, incluido el método main. Pero solo uno de ellos se puede considerar el punto de entrada principal del programa.
+
+Es decir, otras clases pueden tener sus propios métodos main que pueden ser utilizados para realizar pruebas o ejecutar funcionalidades específicas, pero no serán el punto de entrada principal del programa.
